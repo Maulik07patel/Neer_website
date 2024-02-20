@@ -38,30 +38,30 @@
                     </div>
                     <ul class="links">
                         <li>
-                            <a href="index.html">Home</a>
+                            <a href="index.php">Home</a>
                         </li>
                         <li>
-                            <a href="about.html">About</a>
+                            <a href="#">About</a>
                         </li>
                         <li>
-                            <a href="gallery.html">Gallery</a>
+                            <a href="#">Gallery</a>
                         </li>
                         <li>
-                            <a href="pricing.html">Services</a>
+                            <a href="#">Services</a>
                         </li>
                         <li>
-                            <a href="contact.html">Contact Us</a>
+                            <a href="#">Contact Us</a>
                         </li>
                     </ul>
                     <ul class="links">
                         <li>
-                            <a href="services.html">Features</a>
+                            <a href="#">Features</a>
                         </li>
                         <li>
-                            <a href="contact.html">Support</a>
+                            <a href="#">Support</a>
                         </li>
                         <li>
-                            <a href="blog.html">Blog</a>
+                            <a href="#">Blog</a>
                         </li>
                     </ul>
 
@@ -69,8 +69,8 @@
                 </div>
             </div>
             <div class="copyright-w3 mt-4">
-                <p class="copy-right text-center ">&copy; 2018 Arable. All Rights Reserved | Design by
-                    <a href="http://w3layouts.com/"> W3layouts </a>
+                <p class="copy-right text-center ">&copy; 2024 Neer. All Rights Reserved | Design by
+                    <a href="http://queryfinders.com"> Queryfinders </a>
                 </p>
             </div>
         </div>

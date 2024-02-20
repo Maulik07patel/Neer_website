@@ -12,7 +12,7 @@
                             <figcaption>
                                 <h3>Vegitables</h3>
                                 <span>Lorem ipsum </span>
-                                <a href="gallery.html">Gallery</a>
+                                <a href="#">Gallery</a>
                             </figcaption>
                         </figure>
                     </li>
@@ -22,7 +22,7 @@
                             <figcaption>
                                 <h3>Berries</h3>
                                 <span>Lorem ipsum </span>
-                                <a href="gallery.html">Gallery</a>
+                                <a href="#">Gallery</a>
                             </figcaption>
                         </figure>
                     </li>
@@ -32,7 +32,7 @@
                             <figcaption>
                                 <h3>Organic Dairy</h3>
                                 <span>Lorem ipsum </span>
-                                <a href="gallery.html">Gallery</a>
+                                <a href="#">Gallery</a>
                             </figcaption>
                         </figure>
                     </li>
@@ -42,7 +42,7 @@
                             <figcaption>
                                 <h3>Seeds</h3>
                                 <span>Lorem ipsum </span>
-                                <a href="gallery.html">Gallery</a>
+                                <a href="#">Gallery</a>
                             </figcaption>
                         </figure>
                     </li>
@@ -52,7 +52,7 @@
                             <figcaption>
                                 <h3>Herbs</h3>
                                 <span>Jacob Cummings</span>
-                                <a href="gallery.html">Gallery</a>
+                                <a href="#">Gallery</a>
                             </figcaption>
                         </figure>
                     </li>
@@ -62,7 +62,7 @@
                             <figcaption>
                                 <h3>Farm</h3>
                                 <span>Lorem ipsum </span>
-                                <a href="gallery.html">Gallery</a>
+                                <a href="#">Gallery</a>
                             </figcaption>
                         </figure>
                     </li>

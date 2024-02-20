@@ -11,7 +11,7 @@ include('header.php');
                         <p class="text-uppercase">The right choice</p>
                         <h3 class="text-uppercase">Improving agriculture, improving lives.</h3>
                         <div class="cont-btn">
-                            <a class="btn text-uppercase" href="contact.html">
+                            <a class="btn text-uppercase" href="#">
                             Contact</a>
                         </div>
 
@@ -22,7 +22,7 @@ include('header.php');
                         <p class="text-uppercase">Ready to go</p>
                         <h3 class="text-uppercase">High tech advantages with old fashioned service.</h3>
                         <div class="cont-btn">
-                            <a class="btn text-uppercase" href="contact.html">
+                            <a class="btn text-uppercase" href="#">
                             Contact</a>
                         </div>
 
@@ -33,7 +33,7 @@ include('header.php');
                         <p class="text-uppercase">The right choice.</p>
                         <h3 class="text-uppercase">Improving agriculture, improving lives.</h3>
                         <div class="cont-btn">
-                            <a class="btn text-uppercase" href="contact.html">
+                            <a class="btn text-uppercase" href="#">
                             Contact</a>
                         </div>
 
@@ -67,7 +67,7 @@ include('header.php');
                 <h3 class="tittle text-left"> WHAT WE OFFER</h3>
                 <p class="text-white mb-4">Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem ipsum dolor sit amet Neque porro quisquam est qui dolorem Lorem int ipsum dolor sit amet.</p>
                 <div class="log-in pb-md-5 pb-3">
-                    <a class="hover-2 btn text-uppercase" href="single.html">Read More</a>
+                    <a class="hover-2 btn text-uppercase" href="#">Read More</a>
                 </div>
             </div>
 
@@ -352,7 +352,7 @@ include('header.php');
                                     <span class="date">13/05/2018</span>
                                     <h4>Modern Design Template</h4>
                                     <div class="group log-in">
-                                        <a class="hover-2 btn text-uppercase" href="single.html">Read More</a>
+                                        <a class="hover-2 btn text-uppercase" href="#">Read More</a>
                                     </div>
                                 </div>
                             </figcaption>
@@ -378,7 +378,7 @@ include('header.php');
                                     <span class="date">30/05/2018</span>
                                     <h4>Modern Design Template</h4>
                                     <div class="group log-in">
-                                        <a class="hover-2 btn text-uppercase" href="single.html">Read More</a>
+                                        <a class="hover-2 btn text-uppercase" href="#">Read More</a>
                                     </div>
                                 </div>
                             </figcaption>
@@ -404,7 +404,7 @@ include('header.php');
                                     <span class="date">03/06/2018</span>
                                     <h4>Modern Design Template</h4>
                                     <div class="group log-in">
-                                        <a class="hover-2 btn text-uppercase" href="single.html">Read More</a>
+                                        <a class="hover-2 btn text-uppercase" href="#">Read More</a>
                                     </div>
                                 </div>
                             </figcaption>
@@ -430,7 +430,7 @@ include('header.php');
                                     <span class="date">30/07/2018</span>
                                     <h4>Modern Design Template</h4>
                                     <div class="group log-in">
-                                        <a class="hover-2 btn text-uppercase" href="single.html">Read More</a>
+                                        <a class="hover-2 btn text-uppercase" href="#">Read More</a>
                                     </div>
                                 </div>
                             </figcaption>

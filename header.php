@@ -47,7 +47,7 @@
                                     </a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="about.php">About</a>
+                                    <a class="nav-link" href="#">About</a>
                                 </li>
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -55,20 +55,20 @@
                                         <i class="fas fa-angle-down"></i>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="service.php"></a>
-                                        <a class="dropdown-item" href="service.php" title="">Services 1</a>
+                                        <a class="dropdown-item" href="#"></a>
+                                        <a class="dropdown-item" href="#" title="">Services 1</a>
 
-                                        <a class="dropdown-item" href="service_datails.php" title="">Service Details</a>
+                                        <a class="dropdown-item" href="#" title="">Service Details</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="gallery.html">Gallery</a>
+                                    <a class="nav-link" href="#">Gallery</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="blog.html">Blog</a>
+                                    <a class="nav-link" href="#">Blog</a>
                                 </li>
                                 <li class="nav-item">
-                                    <a class="nav-link" href="contact.html">Contact</a>
+                                    <a class="nav-link" href="#">Contact</a>
                                 </li>
 
                             </ul>
