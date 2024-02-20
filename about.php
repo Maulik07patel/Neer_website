@@ -3,77 +3,40 @@ include('head.php');
 include('header.php');
 ?>
 
-
-<div class="slide-window">
-            <div class="slide-wrapper" style="width:300%;">
-                <div class="slide">
-                    <div class="slide-caption text-center">
-                        <p class="text-uppercase">The right choice</p>
-                        <h3 class="text-uppercase">Improving agriculture, improving lives.</h3>
-                        <div class="cont-btn">
-                            <a class="btn text-uppercase" href="contact.html">
-                            Contact</a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="slide slide2">
-                    <div class="slide-caption text-center">
-                        <p class="text-uppercase">Ready to go</p>
-                        <h3 class="text-uppercase">High tech advantages with old fashioned service.</h3>
-                        <div class="cont-btn">
-                            <a class="btn text-uppercase" href="contact.html">
-                            Contact</a>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="slide slide3">
-                    <div class="slide-caption text-center">
-                        <p class="text-uppercase">The right choice.</p>
-                        <h3 class="text-uppercase">Improving agriculture, improving lives.</h3>
-                        <div class="cont-btn">
-                            <a class="btn text-uppercase" href="contact.html">
-                            Contact</a>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-            <div class="slide-controller">
-                <div class="slide-control-left">
-                    <div class="slide-control-line"></div>
-                    <div class="slide-control-line"></div>
-                </div>
-                <div class="slide-control-right">
-                    <div class="slide-control-line"></div>
-                    <div class="slide-control-line"></div>
-                </div>
-            </div>
-        </div>
-        <!-- main image slider container -->
+ 
+ 
+ <!-- end of main image slider container -->
+ <div class="inner-page">
     </div>
-    <!-- end of main image slider container -->
+    <!-- /breadcrumb -->
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="index.html">Home</a>
+        </li>
+        <li class="breadcrumb-item active">About</li>
+    </ol>
 
-    <?php
-    include('gallery.php');
-    ?>
+    <!-- //breadcrumb -->
 
 
-    <!-- /bottom-last -->
-    <section class="bottom-last">
-        <div class="bottom-bg py-5 bs-slider-overlay text-left">
-            <div class="container">
-                <h3 class="tittle text-left"> WHAT WE OFFER</h3>
-                <p class="text-white mb-4">Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem ipsum dolor sit amet Neque porro quisquam est qui dolorem Lorem int ipsum dolor sit amet.</p>
-                <div class="log-in pb-md-5 pb-3">
-                    <a class="hover-2 btn text-uppercase" href="single.html">Read More</a>
+    <!-- ab -->
+    <section class="banner-bottom-w3layouts py-lg-5 py-md-5 py-3" id="feature">
+        <div class="container">
+            <div class="inner-sec-w3ls-agileits py-lg-5 py-3">
+                <h4 class="sub-tittle text-uppercase text-center">Some more info</h4>
+                <h3 class="tittle text-center">About Us</h3>
+
+                <div class="about-info mt-lg-5 mt-md-4 mt-4 text-center">
+                    <img src="images/1.jpg" class="img-fluid" alt="" />
+                    <p class="my-lg-5 my-3">Lorem ipsum dolor sit amet Neque porro quisquam est qui dolorem Lorem int ipsum dolor sit amet when an unknown printer took a galley of type.Vivamus id tempor felis. Cras sagittis mi sit amet malesuada mollis. Mauris porroinit consectetur cursus tortor vel interdum.Simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s.Lorem ipsum dolor sit amet Neque porro quisquam est qui dolorem Lorem int ipsum dolor sit amet.</p>
+                    <div class="log-in">
+                        <a class="hover-2 btn text-uppercase" href="single.html">Read More</a>
+                    </div>
                 </div>
             </div>
-
         </div>
     </section>
-    <!-- //bottom-last -->
+    <!-- //ab -->
     <!-- ab -->
     <section class="banner-bottom-w3layouts bg-light py-lg-5 py-md-5 py-3" id="feature">
         <div class="container">
@@ -192,7 +155,7 @@ include('header.php');
             <div class="inner-sec-w3ls-agileits py-md-5 py-3">
                 <h4 class="sub-tittle text-uppercase text-center">Meet our Team</h4>
                 <h3 class="tittle text-center mb-md-5 mb-4">Farmers who love their work</h3>
-                <div class="row mb-3">
+                 <div class="row mb-3">
                     <div class="col-lg-3 team-info">
                         <div class="our-team">
                             <div class="pic">
@@ -528,8 +491,6 @@ include('header.php');
                             </div>
                         </div>
                     </div>
-
-
                 </div>
             </div>
         </div>
@@ -549,7 +510,6 @@ include('header.php');
         </div>
     </div>
     <!-- //newsletter-->
-
 
     <?php
 include('footer.php');

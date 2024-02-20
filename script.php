@@ -6,6 +6,39 @@
     <!-- carousel -->
     <script src="js/owl.carousel.js"></script>
     <script>
+         // active header nav-link
+    var currentUrl = window.location.href;
+    $('.navbar .nav-link').each(function() {
+        var targetUrl = $(this).attr('href');
+        if (currentUrl.includes(targetUrl) || targetUrl.includes(currentUrl)) {
+            $(this).addClass('active');
+            return false;
+        }
+    });
+    if (currentUrl.endsWith('/')) {
+        $('.navbar .nav-link[href="index.php"]').addClass('active');
+    }
+
+
+    $(document).ready(function() {
+        var currentUrl = window.location.href;
+
+        // Check footer links
+        $('.footer-emp-wthree .links').each(function() {
+            var targetUrl = $(this).attr('href');
+            if (currentUrl.includes(targetUrl) || targetUrl.includes(currentUrl)) {
+                $(this).addClass('active');
+                return false;
+            }
+        });
+
+        // Special case for the home link if the URL ends with '/'
+        if (currentUrl.endsWith('/')) {
+            $('.footer-emp-wthree .links[href="index.php"]').addClass('active');
+        }
+    });
+    </script>
+    <script>
         $(document).ready(function() {
             $('.owl-carousel').owlCarousel({
                 loop: true,
