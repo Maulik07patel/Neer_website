@@ -1,50 +1,7 @@
 <div class="mian-content">
 
     <div class="header-top-w3layouts-agile">
-        <div class="top-head-wthree text-left">
-            <div class="row top-content-info">
-                <div class="col-lg-6 top-content-left">
-                    <ul class="header-info-w3ls">
-                        <li>
-                            <i class="far fa-envelope"></i> <a href="mailto:info@example.com">mail@example.com</a>
-                        </li>
-                        <li>
-                            <i class="fas fa-phone"></i> <a href="tel:+02223688199">+0222 3688 199</a>
-                        </li>
-                        <li>
-                            <i class="far fa-clock"></i> Mon – Fri : 9:00 -17:00
-                        </li>
-                    </ul>
-                </div>
-                <div class="col-lg-6 top-content-right">
-                    <div class="land-gd">
-                        <div class="hd-sc-one">
-                            <div class="land-image text-center">
-                                <i class="fas fa-map-signs"></i>
-                            </div>
-                            <div class="land-content">
-                                <h4>The Best Landscaping</h4>
-
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="land-gd">
-                        <div class="hd-sc-one">
-                            <div class="land-image text-center">
-                                <i class="fas fa-shield-alt"></i>
-                            </div>
-                            <div class="land-content">
-                                <h4>Certified Company</h4>
-
-                            </div>
-                            <div class="clearfix"></div>
-                        </div>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-        </div>
+       
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-3 top-social-icons text-center">
@@ -61,9 +18,17 @@
                             <i class="fas fa-leaf"></i>Arable</a>
                     </h1>
                 </div>
-                <div class="col-md-3 login-right-img text-center">
-                    <a class="request text-uppercase" href="#" data-toggle="modal" data-target="#exampleModalCenter">Sign In</a>
-                    <a class="request text-uppercase" href="#" data-toggle="modal" data-target="#exampleModalCenter2">Sign Up</a>
+                <div class="col-md-3 header_contact text-center">
+                <ul class="header-info-w3ls pt-2">
+                            <li class="mr-3">
+                                <i class="far fa-envelope"></i> <a href="mailto:info@example.com">mail@example.com</a>
+                            </li>
+                            <li class="mr-5">
+                                <i class="fas fa-phone "></i><a href="tel:+02223688199">+0222 3688 199</a>
+                            </li>
+                            <li>
+                                <i class="far fa-clock"></i> Mon – Fri : 9:00 -17:00 </li>
+                        </ul>
                 </div>
             </div>
         </div>
@@ -71,15 +36,14 @@
             <div class="container">
                 <header>
                     <nav class="navbar navbar-expand-lg navbar-light">
-                        <button class="navbar-toggler navbar-toggler-right mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <!-- <button class="navbar-toggler navbar-toggler-right mx-auto" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                             <span class="navbar-toggler-icon"></span>
-                        </button>
+                        </button> -->
 
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <div class="collapse navbar-collapse col-lg-12 text-center" id="navbarSupportedContent">
                             <ul class="navbar-nav mr-lg-auto text-left">
-                                <li class="nav-item active">
+                                <li class="nav-item">
                                     <a class="nav-link" href="index.php">Home
-                                        <span class="sr-only">(current)</span>
                                     </a>
                                 </li>
                                 <li class="nav-item">
@@ -91,10 +55,10 @@
                                         <i class="fas fa-angle-down"></i>
                                     </a>
                                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                        <a class="dropdown-item" href="services.html">Services</a>
-                                        <a class="dropdown-item" href="services.html" title="">Services 1</a>
+                                        <a class="dropdown-item" href="service.php"></a>
+                                        <a class="dropdown-item" href="service.php" title="">Services 1</a>
 
-                                        <a class="dropdown-item" href="single.html" title="">Single Page</a>
+                                        <a class="dropdown-item" href="service_datails.php" title="">Service Details</a>
                                     </div>
                                 </li>
                                 <li class="nav-item">
@@ -108,10 +72,10 @@
                                 </li>
 
                             </ul>
-                            <form action="#" method="post" class="form-inline my-2 my-lg-0 header-search">
+                            <!-- <form action="#" method="post" class="form-inline my-2 my-lg-0 header-search">
                                 <input class="form-control" type="search" placeholder="Search here..." name="Search" required="">
                                 <button class="btn btn1 my-2 my-sm-0" type="submit"><i class="fas fa-search"></i></button>
-                            </form>
+                            </form> -->
                         </div>
                     </nav>
 

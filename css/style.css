@@ -147,26 +147,41 @@ li.nav-item {
     text-decoration: none;
     background-color: #f0f0f1;
 }
-
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
 .header-bg {
     background: #fbbc05;
     padding: 1em 0;
 }
-
+.header_contact{
+    border-left: 1px solid #ddd;
+    display: block;
+    justify-content: left;
+    align-items: start;
+}
 ul.header-info-w3ls li {
     list-style: none;
-    display: inline-block;
-    font-size: 1em;
-    color: #fff;
+    display: block;
+    font-size: 16px;
+    color: #636161;
     letter-spacing: 1px;
 }
-
+ul.header-info-w3ls li:hover{
+    color: #fbbc05;
+}
+ul.header-info-w3ls li a:hover{
+    color: #fbbc05;
+}
 ul.header-info-w3ls li:nth-child(2) {
     margin: 0 1em;
 }
 
 ul.header-info-w3ls li a {
-    color: #fff;
+    color: #636161;
 }
 
 /*-- //header --*/
