@@ -13,10 +13,10 @@
                     </ul>
                 </div>
                 <div class="col-md-6 logo text-center">
-                    <h1>
+                   
                         <a class="navbar-brand" href="index.html">
-                            <i class="fas fa-leaf"></i>Arable</a>
-                    </h1>
+                            <img src="images/neer_website_logo.png" alt="">
+                        </a>
                 </div>
                 <div class="col-md-3 header_contact text-center">
                 <ul class="header-info-w3ls pt-2">

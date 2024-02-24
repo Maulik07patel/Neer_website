@@ -2,9 +2,9 @@
   <div class="banner-bottom-w3layouts py-lg-5 py-3">
         <div class="container">
             <div class="inner-sec-w3ls-agileits py-lg-5 py-3">
-                <h4 class="sub-tittle text-uppercase text-center">What we do</h4>
+                <h4 class="sub-tittle text-uppercase text-center">our services</h4>
                 <h3 class="tittle text-center mb-lg-5 mb-3">
-                    WHAT WE OFFER</h3>
+                Neer's Farming Solutions</h3>
                 <ul class="grid cs-style-5 row">
                     <li class="grid-info-img">
                         <figure>

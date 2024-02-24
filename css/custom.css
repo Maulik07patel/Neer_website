@@ -1,0 +1,224 @@
+/* LOGO */
+
+.logo img {
+  width: 150px;
+}
+
+
+/* Our_details section */
+
+.our_details {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background: url(../images/Backgrounds/neer_website_our_details_bg.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.our_details .title{
+  font-size: 1.5em !important;
+}
+
+.our_details .sub-title {
+  color: #34a853;
+  font-weight: 700;
+}
+
+/* end of Our_details section */
+
+
+/* why_choose_neer section */
+.why_choose_neer {
+  padding-top: 120px;
+  padding-bottom: 120px;
+  background-color: #ffbf000e !important;
+  background: url(../images/Backgrounds/neer_website_why_choose_us_bg_3.png);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.why_choose_neer .title {
+  font-size: 3.5em;
+}
+
+.why_choose_neer .why_us_list .cate_content {
+  line-height: 24px;
+}
+
+
+.why_choose_neer .why_us_list .cate_icons {
+  border-radius: 50%;
+  border-top: 2px dashed #2be15b;
+  border-right: 2px dashed #ffbf00  ;
+  border-left: 2px dashed #ffbf00;
+  border-bottom: 2px dashed #2be15b;
+  padding: 10px;
+  animation: spin 10s infinite linear;
+  padding: 20px;
+}
+.why_choose_neer .why_us_list .cate_icons img {
+  animation: spin 10s infinite reverse linear;
+  width: 100%;
+  border-radius: 50%;
+}
+
+
+
+@keyframes spin {
+  100% {
+      transform: rotate(1turn);
+  }
+}
+
+.why_choose_neer .why_us_list {
+  align-items: center;
+  margin-bottom: 1.8rem;
+}
+
+.why_choose_neer .why_us_list .cate_icons img {
+  width: 39px;
+  filter: drop-shadow(2px 2px 2px #00000054)
+}
+
+.why_choose_neer .why_us_list .cate_content h2 {
+  color: #34a853;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+}
+
+.why_choose_neer .why_us_list .cate_content p {
+  font-size: 1em;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.why_choose_neer .why_us_list p {
+  margin-bottom: 0;
+}
+
+
+/* service_section  */
+
+.our_services{
+  padding-bottom: 120px;
+  padding-top: 120px;
+  background: radial-gradient(#fbd76d, #f08a00);
+  height: 40em;
+  min-height: 100vh;
+  padding: 1em 2em 0 2em;
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+.our_services .text:not(:nth-child(3)){
+  display: none;
+}
+.our_services .text h1{
+  font-size: 3em;
+  margin: 0.5em 0;
+}
+.our_services .text p{
+  max-width: 550px;
+  color: #fff;
+  line-height: 30px;
+  margin: 0 auto;
+}
+.our_services .service_slider{
+  position: absolute;
+  bottom: -40vw;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* .silder_title{
+  position: relative;
+  top: 0 !important;
+} */
+.img{
+  width: 70vw;
+  height: 70vw;
+  max-width: 600px;
+  max-height: 600px;
+  background-image: url(../images/icons_home/neer_website_service_section_img_2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  transition: 300ms;
+}
+.our_services .indicator{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80vw;
+  height: 80vw;
+  max-width: 700px;
+  max-height: 700px;
+  border: 2px #fff solid;
+  border-radius: 50%;
+  transition: transform 300ms;
+} 
+.our_services .indicator::before{
+  content: "";
+  position: absolute;
+  top: -0.5em;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 1em;
+  height: 1em;
+  background-color: #fff;
+  border-radius: 50%;
+}
+.our_services .menu,
+.our_services .menu div{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 85vw;
+  height: 85vw;
+  max-width: 750px;
+  max-height: 750px;
+  border-radius: 50%;
+}
+
+.our_services .menu span{
+  position: absolute;
+  top: -1em;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer;
+  transition: 200ms;
+  text-align: center;
+}
+.our_services .menu span:hover{
+  color: #ccc;
+}
+.our_services .menu div:nth-child(1){
+  transform: translate(-50%, -50%) rotate(-58deg);
+}
+.our_services .menu div:nth-child(2){
+  transform: translate(-50%, -50%) rotate(-32deg);
+}
+.our_services .menu div:nth-child(3){
+  transform: translate(-50%, -50%) rotate(0deg);
+}
+.our_services .menu div:nth-child(4){
+  transform: translate(-50%, -50%) rotate(32deg);
+}
+
+.our_services .menu div:nth-child(5){
+  transform: translate(-50%, -50%) rotate(58deg);
+}
+
+@media screen  and (min-width: 800px) {
+  .our_services .service_slider{
+    bottom: -20em;
+  }
+}
